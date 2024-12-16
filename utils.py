@@ -1,4 +1,4 @@
-# AIzaSyB4dUGdNgqfedzlA0OyRSKnJvo4pzPiCfE
+# AIzaSyB4dUGdN...
 import json
 import os
 import io
