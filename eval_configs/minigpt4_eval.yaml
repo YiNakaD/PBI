@@ -1,6 +1,6 @@
 model:
   arch: mini_gpt4
-  model_type: pretrain_llama
+  model_type: pretrain_vicuna
   freeze_vit: True
   freeze_qformer: True
   max_txt_len: 160
@@ -8,9 +8,8 @@ model:
   low_resource: True
   prompt_path: ""
   prompt_template: '###Human: {} ###Assistant: '
-  ckpt: 'ckpts/pretrained_minigpt4.pth'
-  # ckpt: 'pretrained_minigpt4.pth'
-
+  # ckpt: 'ckpts/pretrained_minigpt4.pth'
+  ckpt: 'pretrained_minigpt4.pth'
 
 datasets:
   cc_sbu_align:
